@@ -1,0 +1,110 @@
+.nav-icon{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    align-self: auto;
+   
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.main {
+    width: 100%;
+    position: center;
+    margin-top: 100px;
+    display: flex;
+    padding: 0 10vw 100px;
+    gap: 50px;
+
+}
+
+.container {
+    position: absolute;
+    right: -200px;
+ }
+
+.hero-image {
+    background-image: url("img/chuttersnap-xkxtDdrl5oE-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align: center;
+    font-size: 10px;
+    color: midnightblue;
+    font-family: 'poppins-bold', sans-serif;
+
+
+}
+.fa-heart{
+    color: grey;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px ;
+    padding-right: 10px ;
+
+}
+
+.fa-heart-animation {
+    animation-duration: 800ms;
+    animation-name: Liked;
+    transition-timing-function: ease-in-out;
+    color: blue;
+}
+
+
+@keyframes Liked {
+    0% {
+        transform: scale(1.0);
+    }
+    25% {
+        transform: rotate(25deg);
+    }
+    50% {
+        color: #0000ff;
+    }
+    75% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: scale(1.0);
+        color: blue;
+    }
+}
+
+
+button,button:focus{
+    border:none;
+    outline: none;
+    background-color: white;
+}
+
+p {
+    white-space : pre-wrap;
+    overflow:scroll;
+    height: 20em;
+}
+
+img{
+    background-clip: content-box;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+.card {
+    margin-top: .5em;
+    position: page;
+
+}
